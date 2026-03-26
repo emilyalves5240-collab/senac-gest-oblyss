@@ -2,54 +2,58 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charsett="UTF-8">
+    <meta charset="UTF-8">
     <title>GestãoBlyss</title>
-    <link rel="estilo" href="estilo/cadastro.css">
+    <link rel="stylesheet" href="estilo/cadastro.css">
 </head>
 
 <body>
-
     <header>
         <div class="container">
 
             <h1>GestãoBlyss</h1>
             <h2>Cadastro</h2>
         </div>
-        <form>
-            <div class="bloco claro">
-
-                <div>
-                    <label for="cadastro_nome">Nome completo:</label>
-                    <input id="cadastro_nome" type="text">
-                </div>
-
-                <div>
-                    <label for="cadastro_email">E-mail:</label>
-                    <input id="cadastro_email" type="email">
-                </div>
-                <div>
-                    <label for="cadastro_telefone">Telefone:</label>
-                    <input id="cadastro_telefone" type="text">
-                </div>
-
-                <div>
-                    <label for="cadastro_senha">Senha:</label>
-                    <input id="cadastro_senha" type="password">
-                </div>
-
-                <div>
-                    <label for="cadastro_senha_confirm">Confirme a senha:</label>
-                    <input id="cadastro_senha_confirm" type="password">
-                </div>
-
-                <div>
-                    <button type="reset">Limpar</button>
-                    <button type="submit">Cadastrar</button>
-                </div>
-
     </header>
 
-    </form>
+    <main>
+        <div class="container">
+
+
+            <form>
+                <div class="bloco">
+
+                        <label for="cadastro_nome">Nome completo:</label>
+                        <input id="cadastro_nome" type="text">
+                </div>    
+
+                    <div class="bloco">
+                        <label for="cadastro_email">E-mail:</label>
+                        <input id="cadastro_email" type="email">
+                    </div>
+                    <div class="bloco">
+                        <label for="cadastro_telefone">Telefone:</label>
+                        <input id="cadastro_telefone" type="text">
+                    </div>
+
+                    <div class="bloco">
+                        <label for="cadastro_senha">Senha:</label>
+                        <input id="cadastro_senha" type="password">
+                    </div>
+
+                    <div class="bloco">
+                        <label for="cadastro_senha_confirm">Confirme a senha:</label>
+                        <input id="cadastro_senha_confirm" type="password">
+                    </div>
+
+                    <div class="bloco">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Cadastrar</button>
+                    </div>
+            </form>
+        </div>
+    </main>
+
 
     <hr>
     <h2>Usuários cadastrados</h2>
@@ -79,6 +83,12 @@
             <td>Editar | Excluir</td>
         </tr>
     </table>
+
+    <br><br>
+
+    <a href="index.html">Voltar para página inicial</a>
+
+    <hr>
 
 
 </body>
