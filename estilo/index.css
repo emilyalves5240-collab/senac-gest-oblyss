@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(185, 185, 206);
+    font-family: "Titillium Web", sans-serif;
+}
+
+/* TOPO */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* MENU */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.menu a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+}
+
+/* TITULOS */
+h1, h2 {
+    margin: 20px;
+    color: black;
+}
+
+/* GRID */
+.recursos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid gray;
+    transition: 0.2s;
+}
+
+.card:hover {
+    background: #e2e2e2;
+}
